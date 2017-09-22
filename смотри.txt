@@ -1,0 +1,20 @@
+==сеть==
+
+cat /etc/network/interfaces
+
+network-manager-gnome 
+wicd-gtk
+
+========
+
+==мышка\клавиатура==
+
+https://askubuntu.com/questions/205676/how-to-change-mouse-speed-sensitivity
+
+xinput --list --short
+xinput --list-props 11
+xinput --set-prop 11 267 1.5
+
+//но чёт не сохраняеться после перезагрузки
+
+====================
