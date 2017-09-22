@@ -18,3 +18,9 @@ xinput --set-prop 11 267 1.5
 //но чёт не сохраняеться после перезагрузки
 
 ====================
+
+==звук==
+sudo apt install alsa-base
+alsamixer
+(pulseaudio?)
+========
