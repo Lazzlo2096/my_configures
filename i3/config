@@ -173,5 +173,4 @@ bindsym XF86MonBrightnessDown exec xbpppacklight -dec 20 # decrease screen brigh
 # Touchpad controls
 #bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 #=============================
-set $fileManager pcmanfm
-bindsym $mod+p exec fileManager
+bindsym $mod+p exec pcmanfm
