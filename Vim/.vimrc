@@ -1,12 +1,16 @@
-colorscheme monokai
-set number
-"===========
 
+" set encoding=utf-8
+
+colorscheme monokai_sickill
+set number
 set title " показывать имя буфера в заголовке терминала
 
+"===========
+set showtabline=2 " 0-никогда; 1-когда больше одного таба; 2-всегда
 
+"===========
 
-"НАСТРОЙКИ ОТСТУПА
+" НАСТРОЙКИ ОТСТУПА
 set shiftwidth=4 " размер отступов (нажатие на << или >>)
 set tabstop=4 " ширина табуляции
 set softtabstop=4 " ширина 'мягкого' таба
@@ -20,19 +24,19 @@ au FileType crontab,fstab,make set noexpandtab tabstop=8 shiftwidth=8
 "НАСТРОЙКИ ВНЕШНЕГО ВИДА
 " Установка шрифта (для Windows и Linux)
 " настройка внешнего вида для GUI
-"if has('gui')
+if has('gui')
     " отключаем графические табы (останутся текстовые,
     " занимают меньше места на экране)
-    "set guioptions-=e
+    set guioptions-=e
     " отключить показ иконок в окне GUI (файл, сохранить и т.д.)
-    "set guioptions-=T
+    set guioptions-=T
 
-    "if has('win32'):q
-    "    set guifont=Lucida_Console:h10:cRUSSIAN::
-    "else
-    "    set guifont=Terminus\ 10
-    "endif
-"endif
+    if has('win32')
+        set guifont=Lucida_Console:h9:cRUSSIAN:: " 9\10
+    else
+        set guifont=Terminus\ 10
+    endif
+endif
 
 
-"http://dimio.org/fajl-nastrojki-vim-vimrc-dlya-linux-i-windows.htmlческ
+" http://dimio.org/fajl-nastrojki-vim-vimrc-dlya-linux-i-windows.html

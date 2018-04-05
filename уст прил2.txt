@@ -1,4 +1,4 @@
-налоги paint'а
+﻿аналоги paint'а
 [https://losst.ru/luchshie-analogi-paint-dlya-linux]
 
 sudo apt install kolourpaint4 mypaint gnome-paint xpaint pinta mtpaint gpaint
