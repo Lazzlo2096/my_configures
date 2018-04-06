@@ -13,12 +13,21 @@ set showtabline=2 " 0-никогда; 1-когда больше одного т�
 set lines=43 columns=132
 "or
 "set lines=30 columns=90
+"set lines=35 columns=110
+	"set lines=32 columns=110
+
 
 "set guifont=DejaVu_Sans_Mono:h8:cRUSSIAN::
 "set guifont=Consolas:h9:cRUSSIAN::
 
 ""set tabstop=4 "повторка
 set smarttab
+
+" https://stackoverflow.com/questions/426896/vim-ctrl-v-conflict-with-windows-paste
+source $VIMRUNTIME/vimrc_example.vim
+" source $VIMRUNTIME/mswin.vim
+" behave mswin
+
 
 "===========
 
