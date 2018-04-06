@@ -6,7 +6,14 @@ set number
 set title " показывать имя буфера в заголовке терминала
 
 "===========
+
 set showtabline=2 " 0-никогда; 1-когда больше одного таба; 2-всегда
+
+"set guifont=DejaVu_Sans_Mono:h8:cRUSSIAN::
+"set guifont=Consolas:h9:cRUSSIAN::
+
+""set tabstop=4 "повторка
+set smarttab
 
 "===========
 
