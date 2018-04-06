@@ -9,6 +9,11 @@ set title " показывать имя буфера в заголовке те�
 
 set showtabline=2 " 0-никогда; 1-когда больше одного таба; 2-всегда
 
+" http://vim.wikia.com/wiki/Maximize_or_set_initial_window_size
+set lines=43 columns=132
+"or
+"set lines=30 columns=90
+
 "set guifont=DejaVu_Sans_Mono:h8:cRUSSIAN::
 "set guifont=Consolas:h9:cRUSSIAN::
 
